@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
+    position: fixed;
 
     padding: 1rem 2rem;
 }
@@ -101,11 +102,74 @@
 .app__navbar-smallscreen_links li:hover {
     color: var(--color-white);
 }
-
+.book {
+    text-align: center;
+    background-color: #070606; 
+    color: #ffd700; 
+    padding: 20px; 
+    
+  }
+  
+  .book form {
+    max-width: 80%; /* Adjust maximum width as needed */
+    margin: 0 auto;
+  }
+  
+  .book label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .book input[type="text"],
+  .book input[type="email"],
+  .book input[type="tel"],
+  .book input[type="date"],
+  .book input[type="time"],
+  .book input[type="number"],
+  .book textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #f3efef; /* White border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    background-color: transparent; /* Make input background transparent */
+    color: #ffd700; /* Golden color for text */
+  }
+  
+  .book textarea {
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .book button[type="submit"],
+  .book button {
+    background-color: #000; /* Black background */
+    color: #ffd700; /* Golden color for text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make button full width */
+  }
+  
+  .book button[type="submit"]:hover,
+  .book button:hover {
+    background-color: #333; /* Darker black color on hover */
+  }
+   @media screen and (min-width: 768px) {
+    .book {
+      margin-left: 500px;
+      max-width: 500px; 
+    }
+  } 
+  
 @media screen and (min-width: 2000px) {
     .app__navbar-logo img {
         width: 210px;
     }
+    
 }
 
 @media screen and (max-width: 1150px) {
@@ -124,8 +188,12 @@
     }
 
     .app__navbar-login {
-        display: none;
+        display:flex;
+        margin-left: 100px;
     }
+  #app{
+    display: none;
+  }
 
     .app__navbar-logo img {
         width: 110px;
