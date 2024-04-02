@@ -102,6 +102,7 @@
 .app__navbar-smallscreen_links li:hover {
     color: var(--color-white);
 }
+
 .book {
     text-align: center;
     background-color: #070606; 
@@ -111,7 +112,7 @@
   }
   
   .book form {
-    max-width: 80%; /* Adjust maximum width as needed */
+    max-width: 80%; 
     margin: 0 auto;
   }
   
@@ -131,33 +132,35 @@
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
-    border: 1px solid #f3efef; /* White border */
+    border: 1px solid #f3efef; 
     border-radius: 5px;
-    box-sizing: border-box; /* Ensure padding is included in width */
-    background-color: transparent; /* Make input background transparent */
-    color: #ffd700; /* Golden color for text */
+    box-sizing: border-box; 
+    background-color: transparent; 
+    color: #ffd700; 
   }
   
   .book textarea {
-    height: 100px; /* Adjust height as needed */
+    height: 100px; 
   }
   
   .book button[type="submit"],
   .book button {
-    background-color: #000; /* Black background */
-    color: #ffd700; /* Golden color for text */
+    background-color: #000; 
+    color: #ffd700; 
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 100%; /* Make button full width */
+    width: 100%; 
   }
   
   .book button[type="submit"]:hover,
   .book button:hover {
-    background-color: #333; /* Darker black color on hover */
-  }
+    background-color: #333; 
+  } 
+  
+  
    @media screen and (min-width: 768px) {
     .book {
       margin-left: 500px;

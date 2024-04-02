@@ -94,7 +94,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-     
+     <div class="modalform">
       <Modal isOpen={showBookingModal} onRequestClose={handleBookingModal}>
         <h2>Book a Table</h2>
         <div className='book'>
@@ -116,7 +116,7 @@ const Navbar = () => {
           <button onClick={handleBookingModal}>Close</button>
         </div>
       </Modal>
-    
+      </div>
     </nav>
   );
 };
