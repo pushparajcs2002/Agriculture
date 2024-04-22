@@ -10,22 +10,18 @@ const Chef = () => (
       <img src={images.chef} alt="chef_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's word" />
-      <h1 className="headtext__cormorant">What we believe in</h1>
+      <SubHeading title="Farmer's World" />
+      <h1 className="headtext__cormorant">Farming is a profession of hope
+</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Inspired by [KEVIN LUO]'s culinary journey and global influences, this dish is a fusion of bold flavors and innovative techniques. </p>
+          <p className="p__opensans">To make agriculture sustainable, the grower has got to be able to make a profit.</p>
         </div>
-        <p className="p__opensans"> From the delicate balance of spices to the artful presentation, each bite is a revelation.</p>
+        <p className="p__opensans"> The ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings.The farmer is the only man in our economy who buys everything at retail, sells everything at wholesale, and pays the freight both ways </p>
       </div>
 
-      <div className="app__chef-sign">
-        <p>Kevin Luo</p>
-        <p className="p__opensans">Chef & Founder</p>
-        <img src={images.sign} alt="sign_image" />
-      </div>
     </div>
   </div>
 );

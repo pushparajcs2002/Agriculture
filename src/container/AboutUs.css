@@ -1,17 +1,9 @@
 .app__aboutus {
-    position: relative;
-}
+    position:relative;
+} 
 
-.app__aboutus-overlay {
-    position: absolute;
-    inset: 0;
-}
 
-.app__aboutus-overlay img {
-    width: 391px;
-    height: 415px;
-    z-index: 0;
-}
+
 
 .app__aboutus-content {
     width: 100%;
@@ -52,7 +44,7 @@
     color: var(--color-grey);
 }
 
-@media screen and (min-width: 2000px) {
+ @media screen and (min-width: 2000px) {
     .app__aboutus-content_knife img {
         height: 1110px;
     }
@@ -61,7 +53,7 @@
     .app__aboutus-content_history p {
         margin: 4rem 0;
     }
-}
+} 
 
 @media screen and (max-width: 900px) {
     .app__aboutus-content {

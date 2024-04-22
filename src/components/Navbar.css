@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
-    position: fixed;
+
 
     padding: 1rem 2rem;
 }
@@ -13,17 +13,22 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: aliceblue;
 }
 
+
 .app__navbar-logo img {
-    width: 150px;
+    width: 130px;
+
+
+
+    
 }
 
 .app__navbar-links {
-    flex: 1;
+    margin-right: 150px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
 
     list-style: none;
 }
@@ -51,12 +56,6 @@
 
 .app__navbar-login a:hover {
     border-bottom: 1px solid var(--color-golden);
-}
-
-.app__navbar-login div {
-    width: 1px;
-    height: 30px;
-    background: var(--color-grey);
 }
 
 .app__navbar-smallscreen {
@@ -103,76 +102,10 @@
     color: var(--color-white);
 }
 
-.book {
-    text-align: center;
-    background-color: #070606; 
-    color: #ffd700; 
-    padding: 20px; 
-    
-  }
-  
-  .book form {
-    max-width: 80%; 
-    margin: 0 auto;
-  }
-  
-  .book label {
-    display: block;
-    margin-bottom: 5px;
-    text-align: left;
-  }
-  
-  .book input[type="text"],
-  .book input[type="email"],
-  .book input[type="tel"],
-  .book input[type="date"],
-  .book input[type="time"],
-  .book input[type="number"],
-  .book textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #f3efef; 
-    border-radius: 5px;
-    box-sizing: border-box; 
-    background-color: transparent; 
-    color: #ffd700; 
-  }
-  
-  .book textarea {
-    height: 100px; 
-  }
-  
-  .book button[type="submit"],
-  .book button {
-    background-color: #000; 
-    color: #ffd700; 
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%; 
-  }
-  
-  .book button[type="submit"]:hover,
-  .book button:hover {
-    background-color: #333; 
-  } 
-  
-  
-   @media screen and (min-width: 768px) {
-    .book {
-      margin-left: 500px;
-      max-width: 500px; 
-    }
-  } 
-  
 @media screen and (min-width: 2000px) {
     .app__navbar-logo img {
         width: 210px;
     }
-    
 }
 
 @media screen and (max-width: 1150px) {
@@ -191,14 +124,11 @@
     }
 
     .app__navbar-login {
-        display:flex;
-        margin-left: 100px;
+        display: none;
     }
-  #app{
-    display: none;
-  }
 
     .app__navbar-logo img {
         width: 110px;
     }
+    
 }

@@ -21,9 +21,9 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
+        <SubHeading title="Farmer,s Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Get ready to feast your eyes on a visual journey through our culinary delights, inviting ambiance, and memorable dining experiences.</p>
+        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Farm Life: Capture the daily routines and activities of farmers, including planting, harvesting, tending to livestock, and repairing equipment</p>
         <button type="button" className="custom__button">View More</button>
       </div>
       <div className="app__gallery-images">

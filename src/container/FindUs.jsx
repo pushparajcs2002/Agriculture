@@ -6,10 +6,10 @@ import { images } from '../constants';
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
-      <SubHeading title="Contact" />
+      <SubHeading title="Contact Me" />
       <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Find Us</h1>
       <div className="app__wrapper-content">
-        <p className="p__opensans">Ashok Nagar, Chennai</p>
+        <p className="p__opensans">Rolex Street,chennai-600230</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Opening Hours</p>
         <p className="p__opensans">Mon - Fri: 10:00 am - 02:00 am</p>
         <p className="p__opensans">Sat - Sun: 10:00 am - 03:00 am</p>

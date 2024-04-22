@@ -1,82 +1,82 @@
 import images from './images';
 
-const wines = [
+const Rice = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Basmati Rice',
+    price: 'Rs.100',
+    tags: 'From Banglore',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Parboiled Rice',
+    price: 'Rs.120',
+    tags: 'From Andhra Pradesh',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Jasmine Rice',
+    price: 'Rs.150',
+    tags: 'From Thanjavur',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Brown Rice',
+    price: 'Rs.100',
+    tags: 'From Villupuram',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Kattuyanam Rice',
+    price: 'Rs.98',
+    tags: 'From Theni',
   },
 ];
 
-const cocktails = [
+const Seeds = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'IR20',
+    price: 'Rs.250',
+    tags: 'From Thirunelveli',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Bhavani",
+    price: 'Rs.180',
+    tags: 'From Salem',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'IR50',
+    price: 'Rs.300',
+    tags: 'From Madurai',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'CO40',
+    price: 'Rs.230',
+    tags: 'From Pudukottai',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Ponni ADT38',
+    price: 'Rs.340',
+    tags: 'From Ramanathapuram',
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'In recognition of its unwavering commitment to culinary excellence',
+    title: 'Young Farmer Awards',
+    subtitle: 'Young farmers who demonstrate innovation, leadership',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle:' Each dish is a masterpiece, crafted with precision and care',
+    title: 'National Agricultural Awards',
+    subtitle: 'Recognize outstanding contributions to agriculture',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'As a beacon of culinary innovation and a leader in the industry',
+    title: 'Local Agricultural Awards',
+    subtitle: 'Within regions or states/provinces',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: ' our chefs are committed to pushing the boundaries of flavor and creativity',
+    title: 'Livestock or Crop-specific Awards',
+    subtitle: 'Such as dairy farming, crop production',
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { Rice, Seeds, awards };
