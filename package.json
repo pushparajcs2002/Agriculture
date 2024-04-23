@@ -1,5 +1,5 @@
 {
-  "homepage": "http://pushparajcs2002.github.io/Agriculture",
+  
   
   "name": "vijayraj",
    
@@ -68,8 +68,7 @@
   
   "start": "react-scripts start",
    
-  "predeploy":"npm run build",
-  "deploy":"gh-pages -d build",
+ 
      
   
   "build": "react-scripts build",
