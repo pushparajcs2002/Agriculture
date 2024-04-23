@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Agriculture/static/css/main.bfdf1223.css",
+    "main.js": "/Agriculture/static/js/main.4eee25dc.js",
+    "static/media/knife.png": "/Agriculture/static/media/knife.29faa5d16831c96a2a5b.png",
+    "static/media/laurels.png": "/Agriculture/static/media/laurels.93d6a419306b1e8192b6.png",
+    "static/media/gallery03.png": "/Agriculture/static/media/gallery03.42bfbbf488b1673d4f2e.png",
+    "static/media/findus.png": "/Agriculture/static/media/findus.ffe5bfb6993659f53376.png",
+    "static/media/gallery04.png": "/Agriculture/static/media/gallery04.d3361f247557d2025031.png",
+    "static/media/gallery02.png": "/Agriculture/static/media/gallery02.749afe1d89e95d45f284.png",
+    "static/media/gallery01.png": "/Agriculture/static/media/gallery01.b80318f7d29e0d1fe41f.png",
+    "static/media/welcome.png": "/Agriculture/static/media/welcome.3b65d43554669b465dc1.png",
+    "static/media/chef.png": "/Agriculture/static/media/chef.349c1d151ef97fe87aee.png",
+    "static/media/menu.png": "/Agriculture/static/media/menu.e6cf94c584d9875865df.png",
+    "static/media/gericht.png": "/Agriculture/static/media/gericht.8f50e538af8e8690bfd7.png",
+    "static/media/logo.png": "/Agriculture/static/media/logo.0286194c03de0a90dac9.png",
+    "static/media/award02.png": "/Agriculture/static/media/award02.8bbdd51499739653b003.png",
+    "static/media/award05.png": "/Agriculture/static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/award01.png": "/Agriculture/static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "/Agriculture/static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "index.html": "/Agriculture/index.html",
+    "main.bfdf1223.css.map": "/Agriculture/static/css/main.bfdf1223.css.map",
+    "main.4eee25dc.js.map": "/Agriculture/static/js/main.4eee25dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfdf1223.css",
+    "static/js/main.4eee25dc.js"
+  ]
+}
